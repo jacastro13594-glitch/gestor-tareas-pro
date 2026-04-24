@@ -1,0 +1,51 @@
+/*Modificando estilos del body*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex; /*Agregando el flexbox y sus caraterísticas*/
+    flex-direction: column; /*Agregando el flexbox y sus caraterísticas*/
+    align-items: center; /*Agregando el flexbox y sus caraterísticas*/
+    justify-content: center;
+    height: 100vh;
+}
+
+/*Modificando estilos del h1*/
+h1{
+    color: #333;
+    text-align: center;
+}
+
+/*Modificando estilos del p*/
+p{
+    max-width: 500px;
+    text-align: center;
+}
+
+/*Modificando estilos del ul*/
+ul{
+    list-style: none;
+}
+
+/*Modificando estilos al boton*/
+button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*Modificando estilos del link a*/
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
