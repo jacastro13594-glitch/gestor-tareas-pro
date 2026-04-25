@@ -13,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background 0.3s, color 0.3s;
 }
 
 /* Contenedor principal */
@@ -90,26 +89,11 @@ li button {
     width: auto;
     background: #e53e3e;
     padding: 5px 10px;
-    margin-left: 5px;
-    font-size: 12px;
+    margin-left: 10px;
 }
 
 li button:hover {
     background: #c53030;
-}
-
-.btn-editar {
-    background: #4299e1; /* azul profesional */
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.btn-editar:hover {
-    background: #3182ce;
 }
 
 /* Tarea completada */
@@ -117,84 +101,4 @@ li button:hover {
     text-decoration: line-through;
     color: gray;
     opacity: 0.7;
-}
-
-.filtros {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.filtros button {
-    flex: 1;
-    margin: 5px;
-    background: #e2e8f0;
-    color: #333;
-}
-
-.filtros button:hover {
-    background: #cbd5e0;
-}
-
-/* Modo oscuro */
-
-body.dark {
-    background: #0f172a;
-    color: #e2e8f0;
-}
-
-body.dark .container {
-    background: #1e293b;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-}
-
-body.dark input {
-    background: #334155;
-    color: #e2e8f0;
-    border: 1px solid #475569;
-}
-
-body.dark input::placeholder {
-    color: #94a3b8;
-}
-
-body.dark li {
-    background: #334155;
-}
-
-body.dark button {
-    background: #3b82f6;
-    color: white;
-}
-
-body.dark button:hover {
-    background: #2563eb;
-}
-
-/* Botón editar */
-body.dark .btn-editar {
-    background: #0ea5e9;
-}
-
-body.dark .btn-editar:hover {
-    background: #0284c7;
-}
-
-/* Botón eliminar */
-body.dark li button:last-child {
-    background: #ef4444;
-}
-
-body.dark li button:last-child:hover {
-    background: #dc2626;
-}
-
-/* Texto completado */
-body.dark .completada {
-    color: #94a3b8;
-}
-
-/*Texto para titulos h1*/
-body.dark h1 {
-    color: #f1f5f9;
 }

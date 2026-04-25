@@ -9,21 +9,10 @@
         <link rel="stylesheet" href="gestor_tareas_pro.css">
     </head>
     <body>
-
-         <!-- Contenedor Principal -->
         <div class="container">
-            <!-- Boton para Modo Oscuro -->
-            <button id="toggleTheme">🌙 Modo oscuro</button>
             <h1>Gestor de Tareas Pro</h1>
             <input type="text" id="taskInput" placeholder="Escribe una tarea...">
             <button id="btn">Agregar Tarea</button>
-
-            <!-- Filtros para mostrar tareas -->    
-            <div class="filtros">
-                <button onclick="cambiarFiltro('todas')">Todas</button>
-                <button onclick="cambiarFiltro('completadas')">Completadas</button>
-                <button onclick="cambiarFiltro('pendientes')">Pendientes</button>
-            </div>
 
             <ul id="taskList"></ul>
 
