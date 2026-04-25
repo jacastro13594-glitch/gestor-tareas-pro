@@ -13,10 +13,16 @@ Aplicación web interactiva para gestionar tareas, desarrollada con HTML, CSS y 
 ## 🚀 Funcionalidades
 
 - ✅ Agregar tareas
+- ✏️ Editar tareas
 - ❌ Eliminar tareas
 - ✔️ Marcar tareas como completadas
-- 💾 Persistencia de datos con localStorage
-- 🎨 Interfaz moderna y responsive
+- 🔍 Filtrar tareas (todas / completadas / pendientes)
+- 🌙 Modo oscuro (persistente)
+- 💾 Persistencia con localStorage
+- ⌨️ Agregar tareas con tecla Enter
+- ⚠️ Validación de input (evita tareas vacías)
+- 📊 Contador de tareas
+- 📭 Mensajes dinámicos cuando no hay tareas
 
 ---
 
@@ -30,48 +36,12 @@ Aplicación web interactiva para gestionar tareas, desarrollada con HTML, CSS y 
 
 ## 📸 Vista previa
 
-_(Puedes agregar una imagen aquí más adelante)_
+![Preview](preview.png)
 
 ---
 
 ## 📂 Estructura del proyecto
-# 📝 Gestor de Tareas Pro
 
-Aplicación web interactiva para gestionar tareas, desarrollada con HTML, CSS y JavaScript puro.
-
----
-
-## 🌐 Demo en vivo
-
-👉 https://jacastro13594-glitch.github.io/gestor-tareas-pro/
-
----
-
-## 🚀 Funcionalidades
-
-- ✅ Agregar tareas
-- ❌ Eliminar tareas
-- ✔️ Marcar tareas como completadas
-- 💾 Persistencia de datos con localStorage
-- 🎨 Interfaz moderna y responsive
-
----
-
-## 🛠️ Tecnologías utilizadas
-
-- HTML5
-- CSS3 (Flexbox + diseño moderno)
-- JavaScript (DOM, eventos, localStorage)
-
----
-
-## 📸 Vista previa
-
-_(Puedes agregar una imagen aquí más adelante)_
-
----
-
-## 📂 Estructura del proyecto
 gestor-tareas-pro/
 │
 ├── index.html
@@ -100,14 +70,14 @@ Este proyecto fue desarrollado como parte de mi aprendizaje en desarrollo Full S
 - Uso de `localStorage` para persistencia
 - Renderizado dinámico con JavaScript
 - Manejo de eventos y lógica de interacción
-- Diseño de interfaces con enfoque en UX
+- Implementación de filtros dinámicos
+- Diseño UX enfocado en feedback visual
 
 ---
 
 ## 📌 Cómo ejecutar el proyecto
 
 1. Clona el repositorio:
-
 git clone https://github.com/jacastro13594-glitch/gestor-tareas-pro.git
 
 Desarrollado por Jorge Castro
